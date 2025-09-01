@@ -1,0 +1,44 @@
+  body {
+    padding-left: 210px;
+  }
+  
+  h1 {
+            color: #ffffff; /* White text color */
+            background-color: #c47113; /* Blue background color */
+            padding: 10px; /* Optional: Add some padding for better visual appearance */
+            text-align: center; /* Optional: Center the text */
+  }
+
+  .sidenav {
+         height: 100%; /* Full-height: remove this if you want "auto" height */
+         width: 200px; /* Set the width of the sidebar */
+         position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+         z-index: 1; /* Stay on top */
+         top: 0; 
+         left: 0;
+         background-color: #111; 
+         overflow-x: hidden; 
+         padding-top: 20px;
+}
+.sidenav a {
+         padding: 6px 8px 6px 16px;
+         text-decoration: none;
+         font-size: 25px;
+         color: #818181;
+         display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.box {
+    height: 50%;
+    width: 50%;
+    background-color: burlywood;
+    margin: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    
+}
